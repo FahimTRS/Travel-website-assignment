@@ -63,11 +63,10 @@ height: 46.673px;
 .content-footer p{
     color: #5A5A5D;
 text-align: center;
-
 font-size: 16px;
-
 font-weight: 400;
 line-height: 26px; 
+margin-bottom: 35px;
 }
 .icon-div{
     text-align: center;
@@ -75,3 +74,12 @@ line-height: 26px;
 .icon-div i{
     margin-right: 25px;
 }
+
+/* media query */
+@media screen and (max-width:600px) {
+    footer{
+        padding: 35px 20px;
+        
+       
+    }
+    
