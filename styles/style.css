@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,1000;1,800&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px auto;
+    max-width: 1440px;
+    /* border: 2px solid green; */
+    font-family: 'Mulish', sans-serif;
+}
+
+.main-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.logo-tittle span{
+    color: #FF5400;
+font-size: 32px;
+font-weight: 800;
+
+}
+.logo-tittle h2{
+    color:  #131318;
+font-size: 32px;
+font-weight: 800;
+
+
+}
+
+
+/* footer */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+    padding: 110px 330px;
+}
+#last{
+    text-align: center;
+}
+hr{
+    margin: 50px auto;
+}
+.footer-container{
+    max-width: 769px;
+    margin: 0px auto;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-footer img{
+   width: 40px;
+height: 46.673px;
+
+}
+.content-footer p{
+    color: #5A5A5D;
+text-align: center;
+
+font-size: 16px;
+
+font-weight: 400;
+line-height: 26px; 
+}
+.icon-div{
+    text-align: center;
+}
+.icon-div i{
+    margin-right: 25px;
+}
