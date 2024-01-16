@@ -139,8 +139,39 @@ color: #FFF;
 text-align: center;
 font-size: 20px;
 font-weight: 600;
-}
+} 
+.newsletter-img{
+    position: relative;
 
+}
+.newsletter-img img{
+    width: 100%;
+}
+ .discount{
+    position: absolute;
+    width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+text-align: center;
+padding: 20px;
+right: 22px;
+bottom: 60px;
+
+ }
+ .discount p{
+    color: #FFF;
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+ }
+ .discount h3{
+    color: #FFF;
+    text-align: center;
+font-size: 32px;
+font-weight: 700;
+ }
 
 
 
