@@ -92,7 +92,7 @@ font-weight: 400;
 /* bannner */
 
 .banner-section {
-    margin: 0px auto;
+    margin: 20px auto;
     width: 1200px;
     height: 500px;
     background: linear-gradient(#131318, #13131800), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
