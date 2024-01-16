@@ -269,6 +269,7 @@ margin-bottom: 40px;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    padding: 20px;
 }
 .card-1, .card-2, .card-3{
     width: 573px;
@@ -293,6 +294,52 @@ padding: 35px;
 .card-1 p, .card-2 p, .card-3 p{
     text-align: left;
 }
+/* perfect place */
+.perfect-place{
+    max-width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    gap: 24px;
+
+}
+.perfect-content{
+    width: 50%;
+    padding: 20px;
+
+}
+
+.video{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.perfect-content h2{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+line-height: 60px; 
+margin-bottom: 24px;
+    
+}
+.perfect-content p{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+margin-bottom: 24px;
+}
+.perfect-content ul{
+    padding-left: 10px;
+}
+.perfect-content>ul li{
+    color: #131318;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px; 
+
+}
+
 
 /* newsletter section */
 
@@ -528,6 +575,22 @@ hr {
       }  
     .banner-section{
         display: block;
+    }
+
+    .perfect-place{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+    }
+    .perfect-content{
+        width: 100%;
+    }
+    .video{
+        width: 100%;
+        padding: 30px;
+        padding-right: 30px;
+        
     }
     
 }
