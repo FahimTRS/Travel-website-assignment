@@ -245,6 +245,50 @@ line-height: 26px;
     padding-left: 10px;
 }
 
+
+.maldiv, .indonesia, .srilanka, .america, .kashmir, .bangladesh, .bandarban{
+    position: relative;
+}
+
+.maldiv .absolute, .indonesia .absolute, .america .absolute, .bangladesh .absolute, .bandarban .absolute{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+
+}
+
+.srilanka .absolute{
+    position: absolute;
+    top: 140px;
+    left: 150px;
+
+
+}
+.kashmir .absolute{
+    position: absolute;
+    top: 140px;
+    left: 110px;
+    
+}
+
+.text-color{
+    color: #FFF;
+text-align: center;
+font-size: 28px;
+font-weight: 800;
+
+
+}
+
+
+
+
+
+
+
+
+
+
 /* choose section */
 .choose h2{
     color: #131318;
