@@ -500,7 +500,7 @@ hr {
     }
     .banner-section {
        width: 100%;
-       height: 100%;
+       height: 1200px;
      }
      .banner-container{
         width: 100%;
@@ -521,10 +521,13 @@ hr {
       
       .nav-section{
         flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
         width: 100%;
+        height: 400px;
       }  
     .banner-section{
         display: block;
     }
-
+    
 }
