@@ -371,7 +371,7 @@ margin-bottom: 30px;
 }
 .deals1, .deals2, .deals3{
     max-width:1200px;
-height: 500px;
+ min-height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -426,7 +426,7 @@ margin-bottom: 15px;
 .deals-card{
     padding: 40px;
     width: 579px;
-height: 389px;
+min-height: 389px;
 text-align: left;
 border-radius: 16px;
 border: 2px solid #FFF;
@@ -763,6 +763,7 @@ hr {
     }
     .deals-card{
         text-align: center;
+        padding: 10px 0px;
         
     }
 }
