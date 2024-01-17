@@ -36,7 +36,7 @@ body {
 
 .btn-primary {
     width: 160px;
-    height: 50px;
+    min-height: 50px;
     border-radius: 8px;
     background: #FF5400;
     border: 0px;
@@ -102,7 +102,7 @@ font-weight: 400;
 .banner-section {
     margin: 20px auto;
     width: 1200px;
-    height: 500px;
+    min-height: 500px;
     background-image: linear-gradient(#131318, #13131800), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-position: center;
     background-repeat: no-repeat;
@@ -159,7 +159,7 @@ font-weight: 400;
 }
 .banner-input button{
     width: 174px;
-height: 52px;
+min-height: 52px;
 border: 0px;
 border-radius: 8px;
 background: #FF5400;
@@ -326,7 +326,7 @@ margin-bottom: 40px;
 }
 .card-1, .card-2, .card-3{
     width: 573px;
-height: 284px;
+min-height: 284px;
 
 
 border-radius: 16px;
@@ -531,7 +531,7 @@ line-height: 26px;
 .newsletter-content input {
     margin-bottom: 16px;
     width: 393px;
-    height: 52px;
+    min-height: 52px;
     border: 0px;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
@@ -540,7 +540,7 @@ line-height: 26px;
 
 .newsletter-content .button-long {
     width: 393px;
-    height: 52px;
+    min-height: 52px;
     border: 0px;
     border-radius: 8px;
     background: #FF5400;
@@ -564,7 +564,7 @@ line-height: 26px;
 .discount {
     position: absolute;
     width: 324px;
-    height: 120px;
+    min-height: 120px;
     transform: rotate(-19.628deg);
     border-radius: 16px;
     background: #FF5400;
@@ -675,6 +675,7 @@ hr {
 
     .newsletter-content input {
         width: 100%;
+        padding: 5px;
     }
 
     .newsletter-content .button-long {
@@ -688,6 +689,25 @@ hr {
 
     .newsletter-img img {
         width: 100%;
+    }
+    .discount {
+        position: absolute;
+        width: 150px;
+        min-height: 50px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        background: #FF5400;
+        text-align: center;
+        padding: 10px;
+        right: 22px;
+        bottom: 40px;
+    }
+    .discount h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .discount p {
+        font-size: 14px;
     }
 
     .banner-input{
